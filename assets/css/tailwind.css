@@ -1,0 +1,74 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+
+
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'RNSSanz';
+    font-style: normal;
+    font-weight: normal;
+    src: url("~assets/fonts/RNSSanz-Normal.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RNSSanz';
+    font-style: normal;
+    font-weight: bold;
+    src: url("~assets/fonts/RNSSanz-Bold.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RNSSanz';
+    font-style: normal;
+    font-weight: 900;
+    src: url("~assets/fonts/RNSSanz-Black.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RNSSanz';
+    font-style: normal;
+    font-weight: 300;
+    src: url("~assets/fonts/RNSSanz-Light.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RNSSanz';
+    font-style: normal;
+    font-weight: 600;
+    src: url("~assets/fonts/RNSSanz-SemiBold.otf") format("opentype");
+    font-display: swap;
+}
+
+.bg-overlay-custom {
+    background-image: linear-gradient(to bottom, #2b76c5, #6456d1);
+}
+
+.turtle-green {
+    background-color: #5cbc50;
+}
+
+.purple-s{
+    background-color: #5f58d0;
+}
+
+:root {
+  --bluish: #2b76c5;
+  --aqua-blue: #0abfdf;
+  --dark-periwinkle: #6057d0;
+  --black: #121212;
+  --black-two: #000000;
+  --purple-s: #5f58d0;
+}
+
+@variants hover, focus {
+    .aqua-blue {
+        background-color: var(--aqua-blue);
+    }
+}
